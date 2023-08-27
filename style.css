@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(2, 8, 6);
+    padding: 50px;
+    color: white;
+}
+
+
+
+.banner{
+    background-image: url('images/banner.jpg');
+
+    height: 400px;
+   
+
+}
+
+.titles{
+    margin-left: 100px;
+
+}
+
+#menu{
+
+  
+    background-color: rgba(60, 61, 59, 0.301);
+
+    width: 1500px;
+    
+    
+}
+
+#menu li {
+    border-right: 1px solid #ffffff;
+    Display: inline-block ;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 70px;
+  
+
+    }
+#menu li:last-child {
+    border-right: none
+    }
+
+
+#main-menu li a{ 
+    color: white;
+
+}
+
+
+#main-menu{
+    color: white;
+    list-style-type:'x ';
+    width: 200px;
+
+    
+}
+
+
+.Container{
+    display: inline-block;
+
+}
+.Gallery{
+   
+   
+    display: inline-block;
+
+    position:static;
+
+
+    margin-left: 200px;
+    width: 900px;
+   
+
+ 
+
+}
+
+
+.Block{
+
+    width: 200px;
+    list-style-type: none;
+}
+
+.container-two button{
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    
+}
+
+.Subscription{
+    display: inline-block;
+    width: 600px;
+    border-right: 1px solid #ffffff;
+    padding-right: 100px;
+}
+
+
+.Other{
+    display: inline-block;
+    width: 600px;
+    padding-left: 50px;
+}
+
+.Contact{
+    margin-top: 100px;
+}
+
+form input{
+    margin: 10px;
+}
